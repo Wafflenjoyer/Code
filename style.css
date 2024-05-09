@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    color: #e6e6e6;
+  
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0.20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Button Styles (Base) */
+  nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav li a:hover {
+    background-color: #333333;
+  }
+  
+  /* Button Style */
+  .button a {
+    background-color: #000000;
+    color: #ddd;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+  
+  /* Footer style*/
+  footer {
+    min-height: 25%;
+  }
+  
+  /*Footer test*/
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
